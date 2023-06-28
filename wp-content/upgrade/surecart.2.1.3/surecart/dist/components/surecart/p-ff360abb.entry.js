@@ -1,0 +1,2 @@
+import{r as s,h as t,H as r}from"./p-25a9e68f.js";const a=":host{display:table-header-group}::slotted(*){display:table-row}";const e=class{constructor(t){s(this,t)}render(){return t(r,null,t("slot",null))}};e.style=a;export{e as sc_table_head};
+//# sourceMappingURL=p-ff360abb.entry.js.map

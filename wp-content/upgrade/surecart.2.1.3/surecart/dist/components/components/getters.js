@@ -1,0 +1,1 @@
+import{s as state}from"./watchers.js";const availablePrices=()=>(state.prices||[]).filter((e=>!(null==e?void 0:e.archived))).sort(((e,a)=>(null==e?void 0:e.position)-(null==a?void 0:a.position))),getters=Object.freeze({__proto__:null,availablePrices:availablePrices});export{availablePrices as a,getters as g};

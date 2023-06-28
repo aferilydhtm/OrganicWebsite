@@ -1,0 +1,1 @@
+import{createStore}from"@stencil/store";import{checkoutMachine}from"../../../src/components/providers/form-state-provider/checkout-machine";const{state:state,onChange:onChange,on:on,set:set,get:get,dispose:dispose}=createStore({formState:checkoutMachine.initialState},((e,t)=>JSON.stringify(e)!==JSON.stringify(t)));export default state;export{state,onChange,on,set,get,dispose};

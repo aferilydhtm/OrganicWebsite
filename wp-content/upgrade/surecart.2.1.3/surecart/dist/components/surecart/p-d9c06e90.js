@@ -1,0 +1,1 @@
+import{a as s,h as a}from"./p-b6ef0098.js";const o=()=>a(s.formId,s.mode),t=o=>s.locks=[...s.locks,o],c=(o="")=>s.locks=o?s.locks.filter((s=>s!==o)):[];export{o as c,t as l,c as u};

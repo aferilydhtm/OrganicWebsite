@@ -1,0 +1,1 @@
+import state from"./store";import{clearCheckout as clearSavedCheckout}from"../checkouts";export const clearCheckout=()=>clearSavedCheckout(state.formId,state.mode);export const lockCheckout=t=>state.locks=[...state.locks,t];export const unLockCheckout=(t="")=>state.locks=t?state.locks.filter((e=>e!==t)):[];

@@ -1,0 +1,1 @@
+import{s as o}from"./p-b141815b.js";const l=()=>(o.prices||[]).filter((o=>!(null==o?void 0:o.archived))).sort(((o,i)=>(null==o?void 0:o.position)-(null==i?void 0:i.position))),i=Object.freeze({__proto__:null,availablePrices:l});export{l as a,i as g};

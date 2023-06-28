@@ -1,0 +1,1 @@
+import{c as o}from"./p-db7ede86.js";const{state:s,onChange:a,dispose:e}=o({id:"",method:"",manual:!1});a("id",(()=>{s.manual=(null==s?void 0:s.id)&&!["paypal","stripe","mollie"].includes(s.id)}));export{a as o,s};

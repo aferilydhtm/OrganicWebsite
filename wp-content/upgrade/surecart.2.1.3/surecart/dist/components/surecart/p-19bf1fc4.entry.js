@@ -1,0 +1,2 @@
+import{r as s,h as t}from"./p-25a9e68f.js";import{o as i}from"./p-c728334f.js";const r="sc-order-submit{display:block;width:auto}";const e=class{constructor(t){s(this,t);this.busy=undefined;this.type="primary";this.size="medium";this.full=true;this.icon=undefined}render(){return t("sc-button",{submit:true,type:this.type,size:this.size,full:this.full,loading:this.busy,disabled:this.busy},!!this.icon&&t("sc-icon",{name:this.icon,slot:"prefix"}),t("slot",null))}};i(e,["busy"],false);e.style=r;export{e as sc_cart_form_submit};
+//# sourceMappingURL=p-19bf1fc4.entry.js.map

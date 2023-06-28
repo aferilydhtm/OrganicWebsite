@@ -1,0 +1,1 @@
+import{s as state}from"./store.js";const formLoading=()=>"loading"===state.formState.value,formBusy=()=>["updating","finalizing","paying","confirming"].includes(state.formState.value);export{formLoading as a,formBusy as f};

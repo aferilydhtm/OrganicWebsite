@@ -1,0 +1,4 @@
+2023-06-28T10:48:37+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Wordpress\Wordpress2\wordpress\wp-admin\includes\class-wp-filesystem-direct.php on line 173
+
+2023-06-28T12:04:41+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Wordpress\Wordpress2\wordpress\wp-includes\functions.php on line 673
+

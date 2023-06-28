@@ -1,0 +1,1 @@
+"use strict";const index=require("./index-261b56ec.js"),{state:state,onChange:onChange,dispose:dispose}=index.createStore({loggedIn:!1,email:"",name:""});exports.state=state;

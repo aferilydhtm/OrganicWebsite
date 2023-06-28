@@ -1,0 +1,1 @@
+import{createStore}from"@stencil/store";const{state:state,onChange:onChange,dispose:dispose}=createStore({loggedIn:!1,email:"",name:""});export default state;export{state,onChange,dispose};

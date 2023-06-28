@@ -1,0 +1,1 @@
+"use strict";const index=require("./index-261b56ec.js"),{state:state,onChange:onChange,dispose:dispose}=index.createStore({id:"",method:"",manual:!1});onChange("id",(()=>{state.manual=(null==state?void 0:state.id)&&!["paypal","stripe","mollie"].includes(state.id)})),exports.onChange=onChange,exports.state=state;

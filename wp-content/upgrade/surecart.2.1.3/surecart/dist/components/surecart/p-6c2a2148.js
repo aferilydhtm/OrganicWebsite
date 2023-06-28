@@ -1,0 +1,1 @@
+const t=t=>{let n;try{n=new URL(t)}catch(t){return!1}return"http:"===n.protocol||"https:"===n.protocol},n=t=>{const n=window.location.search;return new URLSearchParams(n).get(t)},r=(t,n,o)=>(t||[]).sort(((t,r)=>-1===o.indexOf(null==t?void 0:t[n])?1:-1===o.indexOf(null==r?void 0:r[n])?-1:o.indexOf(null==t?void 0:t[n])-o.indexOf(null==r?void 0:r[n])));export{n as g,t as i,r as s};

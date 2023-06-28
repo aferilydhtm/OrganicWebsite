@@ -1,0 +1,1 @@
+import{a as state,h as clearCheckout$1}from"./watchers-9ca21ceb.js";const clearCheckout=()=>clearCheckout$1(state.formId,state.mode),lockCheckout=t=>state.locks=[...state.locks,t],unLockCheckout=(t="")=>state.locks=t?state.locks.filter((c=>c!==t)):[];export{clearCheckout as c,lockCheckout as l,unLockCheckout as u};

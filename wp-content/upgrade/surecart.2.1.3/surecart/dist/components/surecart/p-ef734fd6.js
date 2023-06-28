@@ -1,0 +1,1 @@
+import{c as e}from"./p-db7ede86.js";const{state:s,onChange:a,dispose:o}=e({loggedIn:!1,email:"",name:""});export{s};

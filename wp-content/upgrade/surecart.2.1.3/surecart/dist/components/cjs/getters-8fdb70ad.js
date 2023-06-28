@@ -1,0 +1,1 @@
+"use strict";const watchers=require("./watchers-ff56b91c.js"),availablePrices=()=>(watchers.state.prices||[]).filter((e=>!(null==e?void 0:e.archived))).sort(((e,i)=>(null==e?void 0:e.position)-(null==i?void 0:i.position))),getters=Object.freeze({__proto__:null,availablePrices:availablePrices});exports.availablePrices=availablePrices,exports.getters=getters;
